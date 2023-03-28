@@ -19,4 +19,5 @@ from password_generator_project.generator import views
 
 urlpatterns = [
     path('', views.home),
+    path('generatedpassword/', views.password, name='password')
 ]
